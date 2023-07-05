@@ -1,0 +1,232 @@
+{
+    "gold_per_floor": [
+      20,
+      34,
+      134,
+      145,
+      165,
+      198,
+      198,
+      198
+    ],
+    "floor_reached": 8,
+    "playtime": 3554,
+    "items_purged": [],
+    "score": 67,
+    "play_id": "14867eab-cb40-462c-8cfc-34cd504cf741",
+    "local_time": "20220107155408",
+    "is_ascension_mode": true,
+    "campfire_choices": [
+      {
+        "data": "Sunder",
+        "floor": 7,
+        "key": "SMITH"
+      }
+    ],
+    "neow_cost": "NO_GOLD",
+    "seed_source_timestamp": 488874584682900,
+    "circlet_count": 0,
+    "master_deck": [
+      "Strike_B",
+      "Strike_B",
+      "Strike_B",
+      "Strike_B",
+      "Defend_B",
+      "Defend_B",
+      "Defend_B",
+      "Defend_B",
+      "Zap",
+      "Dualcast",
+      "Beam Cell",
+      "Leap",
+      "Skim",
+      "Sunder+1",
+      "Rebound"
+    ],
+    "relics": [
+      "Cracked Core",
+      "Unceasing Top",
+      "Orichalcum"
+    ],
+    "potions_floor_usage": [
+      6,
+      8
+    ],
+    "damage_taken": [
+      {
+        "damage": 15,
+        "enemies": "Small Slimes",
+        "floor": 1,
+        "turns": 4
+      },
+      {
+        "damage": 1,
+        "enemies": "Cultist",
+        "floor": 2,
+        "turns": 3
+      },
+      {
+        "damage": 2,
+        "enemies": "Jaw Worm",
+        "floor": 4,
+        "turns": 4
+      },
+      {
+        "damage": 6,
+        "enemies": "Blue Slaver",
+        "floor": 5,
+        "turns": 4
+      },
+      {
+        "damage": 20,
+        "enemies": "3 Sentries",
+        "floor": 6,
+        "turns": 6
+      },
+      {
+        "damage": 45,
+        "enemies": "Lagavulin",
+        "floor": 8,
+        "turns": 5
+      }
+    ],
+    "seed_played": "-5123778870923933283",
+    "potions_obtained": [
+      {
+        "floor": 2,
+        "key": "ColorlessPotion"
+      },
+      {
+        "floor": 4,
+        "key": "Block Potion"
+      }
+    ],
+    "is_trial": false,
+    "path_per_floor": [
+      "M",
+      "M",
+      "?",
+      "M",
+      "M",
+      "E",
+      "R",
+      "E"
+    ],
+    "character_chosen": "DEFECT",
+    "items_purchased": [],
+    "campfire_rested": 0,
+    "item_purchase_floors": [],
+    "current_hp_per_floor": [
+      60,
+      59,
+      59,
+      57,
+      51,
+      31,
+      31,
+      0
+    ],
+    "gold": 198,
+    "neow_bonus": "ONE_RARE_RELIC",
+    "is_prod": false,
+    "is_daily": false,
+    "chose_seed": false,
+    "campfire_upgraded": 1,
+    "win_rate": 0,
+    "timestamp": 1641551048,
+    "path_taken": [
+      "M",
+      "M",
+      "?",
+      "M",
+      "M",
+      "E",
+      "R",
+      "E"
+    ],
+    "build_version": "2020-12-22",
+    "purchased_purges": 0,
+    "victory": false,
+    "max_hp_per_floor": [
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75
+    ],
+    "card_choices": [
+      {
+        "not_picked": [
+          "Compile Driver",
+          "Steam Power"
+        ],
+        "picked": "Beam Cell",
+        "floor": 1
+      },
+      {
+        "not_picked": [
+          "Double Energy",
+          "Ball Lightning"
+        ],
+        "picked": "Leap",
+        "floor": 2
+      },
+      {
+        "not_picked": [
+          "Steam",
+          "Turbo"
+        ],
+        "picked": "Skim",
+        "floor": 4
+      },
+      {
+        "not_picked": [
+          "Leap",
+          "Redo"
+        ],
+        "picked": "Sunder",
+        "floor": 5
+      },
+      {
+        "not_picked": [
+          "Beam Cell",
+          "Thunder Strike"
+        ],
+        "picked": "Rebound",
+        "floor": 6
+      }
+    ],
+    "player_experience": 340028,
+    "relics_obtained": [
+      {
+        "floor": 6,
+        "key": "Orichalcum"
+      }
+    ],
+    "event_choices": [
+      {
+        "damage_healed": 0,
+        "gold_gain": 100,
+        "player_choice": "Pray",
+        "damage_taken": 0,
+        "max_hp_gain": 0,
+        "max_hp_loss": 0,
+        "event_name": "Golden Shrine",
+        "floor": 3,
+        "gold_loss": 0
+      }
+    ],
+    "is_beta": false,
+    "boss_relics": [],
+    "items_purged_floors": [],
+    "is_endless": false,
+    "potions_floor_spawned": [
+      2,
+      4
+    ],
+    "killed_by": "Lagavulin",
+    "ascension_level": 3
+  }
