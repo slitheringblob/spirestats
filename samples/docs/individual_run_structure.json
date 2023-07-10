@@ -1,0 +1,73 @@
+{
+    "path_per_floor":"type of room entered one ach floor",
+    "is_trial":"1 if run is CUSTOM and 0 otherwise",
+    "character_chosen":"IRONCLAD, THE SILENT, DEFECT, or WATCHER",
+    "items_purchased":"upon puchasing and item from the merchant, its name is appended",
+    "campfire_rested":"number of times a player rests",
+    "item_purchase_floors":"upon puchasing and item from the merchant,the current floor is appended",
+    "current_hp_per_floor":"current HP recorded at the end of each floor",
+    "gold":" gold in possession at the end of the run",
+    "neow_bonus":"bonus associated with the chosed neow option",
+    "is_prod":"unknown",
+    "is_daily":"1 if run is daily climb and 0 otherwise",
+    "chose_seed":"1 if custom seed else 0",
+    "win_rate":"unknown(0 or 1)",
+    "campfire_upgraded":"no of times a card was upgraded at a campfire",
+    "timestamp":"UNIX timestamp created at end of run",
+    "path_taken":"same as path_per_floor except floors immediately after act boss",
+    "purchase_purges":"no of cards removed at merchant",
+    "victory":"0 or 1 depending on if the victory screen was reached",
+    "max_hp_per_floor":"max HP recorded at end of each floor",
+    "card_choices":"cards selected and not selected at end of combat",
+    "is_beta":"1 if run was played on beta branch, 0 otherwise",
+    "boss_relics":"boss relics chosed or not chosen after each act boss",
+    "items_purged_floors":"upon removing card at the merchant, append the current floor",
+    "is_endless":"1 if run is endless and 0 otherwise",
+    "potions_floor_spawned":"combat floors offering a potion reward",
+    "killed_by":"name of encounter that killed the player or null value if the player ",
+    "ascension_level":"Ascension level of the run",
+    "special_seed":"unknown (0 or 1 or null)",
+    "campfire_choices":{
+        "floor":"floor on which the rest site was entered",
+        "key":"REST, SMITH, RECALL, LIFT, PURGE, or DIG depending on the action taken at the rest site. PURGE corresponds to the toke effect from Peace Pipe",
+        "data":"name of the card upgraded or removed; or the counter for GIRYA , PEACE PIPE OR SHOVEL uses"
+    },
+    "damage_taken":{
+        "damage":"total damage received throughout the combat encounter(not counting block or healing)",
+        "enemies":"name of enemy encounter",
+        "floor":"floor on which the enemies were encountered",
+        "turns":"no of turns the encounter lasted for"
+    },
+    "potions_obtained":{
+        "floor":"floor on which potion was obtained",
+        "key":"name of the potion obtained"
+    },
+    "card_choices":{
+        "not_picked": "list of strings of cards not chosen",
+        "picked":"name of card option chosen",
+        "floor":"floor of the combat encounter granting the card reward"
+    },
+    "relics_obtained":{
+        "floor":"floor on which relic was obtained",
+        "key":"name of the relic obtained"
+    },
+    "boss_relics":{
+        "not_picked":"list of strings all boss relics not chosen",
+        "picked":"name of boss relic chosen",
+        "damage_healed":"amount of healing from event reward",
+        "max_hp_gain":"increase in max HP from event reward",
+        "max_hp_loss":"decrease in max HP from event penalty",
+        "gold_gain":"amount of gold from event reward",
+        "event_name":"name of event",
+        "player_choice":"name of option chosen by player",
+        "floor":"floor on which the event was encountered",
+        "gold_loss":"amount of gold lost due to event penalty",
+        "damage_taken":"damage taken due to event penalty",
+        "cards_obtained":"names of cards obtained from the event",
+        "cards_upgraded":"names of cards upgraded by event",
+        "cards_transformed":"names of cards transformed by event",
+        "cards_removed":"names of cards removed by event",
+        "relics_obtained":"names of relics obtained from event",
+        "potions_obtained":"names of potions obtained from event"
+    }
+}
