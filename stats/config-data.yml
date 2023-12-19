@@ -1,0 +1,8 @@
+run_path:
+  defect: 'D:\Steam\steamapps\common\SlayTheSpire\\runs\DEFECT\\'
+  ironclad: 'D:\Steam\steamapps\common\SlayTheSpire\\runs\IRONCLAD\\'
+  silent: 'D:\Steam\steamapps\common\SlayTheSpire\\runs\THE_SILENT\\'
+  watcher: 'D:\Steam\steamapps\common\SlayTheSpire\\runs\WATCHER\\'
+env:
+  development: True
+  production: False
