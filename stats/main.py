@@ -4,6 +4,7 @@ import os
 import json
 from xml.dom.minidom import CharacterData
 import yaml
+from stats.parser import parse_run
 
 #this will read config and look for the paths that you set
 #update your config with your paths to the runs folder of STS
@@ -19,16 +20,21 @@ def discover_runs() -> None:
 
 #this will be responsible for going into the path and read each run file
 def ingest_runs(character, path) -> None:
-    
+    bad_file_count = 0
     for file_name in [file for file in os.listdir(path) if file.endswith('.run')]:
         with open(path + file_name) as json_file:
             data = json.load(json_file)
-            print(data)
+            try:
+                parse_run(data)
+            except Exception as e:
+                bad_file_count+=1
+                print(f"Issue reading File:{file_name}.run")
+                print(f"Caused by {e}")
+                continue
 
 def main():
     #discover->ingest->parse
     discover_runs()
-    #ingest_runs()
 
 
 if __name__ == "__main__":

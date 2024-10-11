@@ -2,6 +2,9 @@ import enum
 import json
 import os
 import pandas as pd
+from sqlalchemy.orm import DeclarativeBase
+
+Base = DeclarativeBase()
 
 
 class Character(str, enum.Enum):
@@ -10,8 +13,12 @@ class Character(str, enum.Enum):
     silent = "THE_SILENT"
     watcher = "WATCHER"
 
+class Run(base):
+    __tablename__ = "runs"
+    
 
-def parse_run(run_file: json) -> dict:
+def parse_run(run_data: dict) -> dict:
+    
     return {}
 
 
